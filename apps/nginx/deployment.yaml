@@ -7,7 +7,7 @@ metadata:
   annotations:
     container.apparmor.security.beta.kubernetes.io/nginx: unconfined
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
