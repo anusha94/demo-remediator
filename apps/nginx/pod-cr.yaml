@@ -4,5 +4,5 @@ metadata:
   name: pod-admin
 rules:
 - apiGroups: [""]
-  resources: ["pods","deployments"]
+  resources: ["pods"]
   verbs: ["*"]
